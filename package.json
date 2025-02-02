@@ -6,6 +6,7 @@
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
+    "start-client": "vite preview",
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
@@ -14,7 +15,8 @@
     "isbot": "^5.1.17",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router": "^7.1.5"
+    "react-router": "^7.1.5",
+    "styled-components": "^6.1.14"
   },
   "devDependencies": {
     "@react-router/dev": "^7.1.5",
